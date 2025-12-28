@@ -66,7 +66,7 @@ justchat/
 ## ⚙️ Prerequisites
 
 * Node.js (v16+ recommended)
-* npm or yarn
+* npm, pnpm, bun or yarn
 * MongoDB (local or Atlas)
 
 ---
@@ -91,6 +91,14 @@ RESEND_API_KEY=your_resend_api_key
 
 # Arcjet
 ARCJET_KEY=your_arcjet_key
+```
+
+### Frontend (`frontend/.env`)
+
+```env
+
+VITE_API_BASE_URL=http://localhost:5000/api
+
 ```
 
 ## 📦 Installation & Setup
